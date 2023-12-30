@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(./cursor.css);
+
 body {
   font-family: 'Lato', sans-serif;
   height: 100vh;
@@ -98,7 +100,7 @@ body {
     margin: auto;
     width: 380px;
     text-align: center;
-    top: 50%;
+    top: 45%;
     animation: move_up .5s 1.9s forwards; }
     body .logo_holder__rotate {
       animation: logo_rotate .35s .4s forwards,logo_move .35s .75s forwards;
@@ -174,6 +176,6 @@ body {
 
 @keyframes move_up {
   0% {
-    top: 50%; }
+    top: 45%; }
   100% {
-    top: 30%; /*最后的位置变换*/} }
+    top: 25%; /*最后的位置变换*/} }
